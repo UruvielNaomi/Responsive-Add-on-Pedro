@@ -1,0 +1,227 @@
+body {
+  background:#12101D;
+  color: #FFFFFF;
+  font-family: 'Plus Jakarta Sans';
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: #ffff;
+}
+
+button {
+  padding: 16px 32px;
+  background: #FB5C8D;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-top: 64px;
+}
+
+footer {
+  position: absolute;
+  width: 1512px;
+  height: 415px;
+  left: 0px;
+  top: 4022px;
+}
+
+header {
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ), url("/images/background-pedro.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  padding: 260px 0px;
+}
+
+header a {
+  display: flex;
+  justify-content: end;
+  padding-right: 50px;
+}
+
+header h1 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 120px;
+  line-height: 1.5;
+  text-align: right;
+  padding-right: 50px;
+  margin-bottom: 25px;
+}
+
+header h2{
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.5;
+  text-align: right;
+  padding-right: 50px;
+}
+
+header h3 {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: 5px;
+  margin-bottom: 64px;
+  text-transform: uppercase;
+  text-align: right;
+  padding-right: 50px;
+}
+
+.container-favourites {
+  position: absolute;
+  width: 1512px;
+  height: 1145px;
+  left: 0px;
+  top: 1770px;
+  background: #1E1B2C;
+  color: #272044;
+ 
+}
+
+.container-favourites button {
+  margin-top: 0px;
+}
+
+.container-favourites h5 {
+  width: 110px;
+  height: 30px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #272044 !important;
+  border-left: none !important;
+  margin: 24px 228px 0px 32px;
+  padding: 0 !important;
+}
+
+.container-favourites h6 {
+  width: 61px;
+  height: 20px !important;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 0px 32px;
+  gap: 8px;
+  width: 370px;
+  height: 48px;
+  margin: 0px;
+}
+
+.container-favourites p {
+  width: 306px !important;
+  height: 130px !important;
+  margin: 0 auto;
+  margin: 12px 32px 24px 32px;
+}
+
+.container-favourites .favourite-1,.favourite-2,.favourite-3 {
+  width: 370px;
+  height: 779px;
+  background: #FFFFFF;
+  box-shadow: 20px 20px 50px rgba(7, 5, 20, 0.05);
+  border-radius: 20px;
+  
+}
+
+.container-favourites .preview-img {
+  width: 370px;
+  height: 235px;
+  object-fit: cover;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.container-favourites .release-date {
+  height: 20px !important;
+}
+
+.container-favourites .container-selection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-favourites .selection-my-favourites {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+}
+
+
+.container-more {
+  position: absolute;
+  width: 1170px;
+  height: 907px;
+  left: 171px;
+  top: 3015px;
+  margin: 0 auto;
+}
+
+.container-why{
+  position: absolute;
+  width: 1172px;
+  height: 674px;
+  left: 169px;
+  top: 1000px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.container-why img {
+  width: 587px;
+  height: 674px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.container-why h4 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 1.5;
+  width: 521px;
+  height: 147px;
+}
+
+.container-why h5 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 13px;
+  line-height: 1.5;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #FB5C8D;
+  padding: 2px 0px 2px 16px;
+  gap: 10px;
+  width: 58px;
+  height: 20px;
+  border-left: 5px solid #FB5C8D;
+  }
+  
+.container-why p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  width: 521px;
+  height: 182px;
+  }
