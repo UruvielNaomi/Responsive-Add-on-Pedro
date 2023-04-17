@@ -30,9 +30,6 @@ button {
 }
 
 footer {
-  position: absolute;
-  width: 1512px;
-  height: 415px;
   left: 0px;
   top: 4022px;
 }
@@ -85,14 +82,9 @@ header h3 {
 }
 
 .container-favourites {
-  position: absolute;
-  width: 1512px;
-  height: 1145px;
-  left: 0px;
-  top: 1770px;
   background: #1E1B2C;
   color: #272044;
- 
+  margin-top: 90px; 
 }
 
 .container-favourites button {
@@ -166,24 +158,10 @@ header h3 {
   grid-gap: 30px;
 }
 
-
-.container-more {
-  position: absolute;
-  width: 1170px;
-  height: 907px;
-  left: 171px;
-  top: 3015px;
-  margin: 0 auto;
-}
-
 .container-why{
-  position: absolute;
-  width: 1172px;
-  height: 674px;
-  left: 169px;
-  top: 1000px;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin-top: 90px;
 }
 
 .container-why img {
