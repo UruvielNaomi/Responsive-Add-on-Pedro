@@ -2,6 +2,7 @@ body {
   background:#12101D;
   color: #FFFFFF;
   font-family: 'Plus Jakarta Sans';
+  line-height: 1.5;
 }
 
 .container {
@@ -37,12 +38,13 @@ footer {
  background-image: linear-gradient(
   rgba(0, 0, 0, 0.7),
   rgba(0, 0, 0, 0.7)
-), url("/images/pedro-coding.png");
-background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
-padding: 50px;
-margin: 100px 0px 50px 0px;
+  ), url("/images/pedro-coding.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 50px;
+  margin: 100px 0px 50px 0px;
+  border-radius: 3px;
 }
 
 header {
@@ -64,7 +66,6 @@ header a {
 }
 
 header h1 {
-  font-style: normal;
   font-weight: 800;
   font-size: 120px;
   line-height: 1.5;
@@ -98,6 +99,7 @@ html {
 
 ul {
   padding-inline-start: 0px;
+  margin: 0px;
 }
 
 .container-favourites {
@@ -138,7 +140,6 @@ ul {
 .container-favourites h6 {
   width: 61px;
   height: 20px !important;
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.5;
@@ -153,10 +154,10 @@ ul {
   width: 306px !important;
   height: 130px !important;
   margin: 0 auto;
-  margin: 12px 32px 24px 32px;
+  margin: 12px 32px 20px 32px;
 }
 
-.container-favourites .favourite-1,.favourite-2,.favourite-3 {
+.container-favourites .card-1,.card-2,.card-3 {
   width: 370px;
   height: 779px;
   background: #FFFFFF;
@@ -246,7 +247,6 @@ ul {
 }
 
 .container-why h4 {
-  font-style: normal;
   font-weight: 800;
   font-size: 48px;
   line-height: 1.5;
@@ -266,7 +266,6 @@ ul {
   }
   
 .container-why p {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -308,7 +307,151 @@ ul {
 
 
   @media (max-width: 900px) {
+    .container {
+      max-width: 800px;
+    }
+
+    header {
+      margin: 0 auto;
+    }
+
+    footer {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 15px;
+    }
+
+    .card-3 {
+      margin-bottom: 90px;
+    }
+
+    .container-favourites {
+      padding-top: 50px;
+    }
+
+    .container-favourites h2 {
+      font-size: 30px;
+      margin: 25px 0px;
+      padding: 0px 5px;
+    }
+
+    .container-favourites .selection-my-favourites {
+      grid-template-columns: 1fr;
+    }
+
+    .container-more h2 {
+      margin: 25px 0px;
+    }
+
     .content-selection-1,.content-selection-2 {
       grid-template-columns: 1fr;
     }
+
+    .container-why img {
+      width: 382px;
+      height: 538px;
+      padding-right: 25px;
+    }
+
+    .container-why h4 {
+      font-size: 28px;
+      line-height: 1.5;
+      width: 300px;
+      height: 60px;
+      margin-top: 10px;
+    }
+
+    .container-why h5 {
+      margin: 0px;
+    }
+      
+    .container-why p {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 1.5;
+      max-width: 350px;
+      height: 260px;
+      }
   }
+
+
+
+
+  @media (max-width: 500px){
+    .container {
+      max-width: 400px;
+    }
+
+    .container-why .image {
+      display: none;
+    }
+
+    footer {
+      grid-template-columns: 1fr;
+      background-image: linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+      ), url("/images/pedro-footer-full-size.png");
+      background-size: cover;
+      background-position: center;
+    }
+
+    header {
+      background-position-x: 20%;
+      max-height: 300px;
+    }
+
+    header button {
+      margin: 0px
+    }
+
+    header h1 {
+      font-size: 60px;
+      margin-top: 0px;
+      margin-bottom: 250px;
+    }
+
+    header h2 {
+      font-size: 20px;
+    }
+
+    header h3 {
+      margin-top: -250px;
+      font-size: 20px;
+    }
+
+    .container-favourites h6 {
+      max-width: 300px;
+    }
+    
+    .container-favourites p {
+      font-size: 14px;
+      max-width: 225px;
+    }
+
+    .container-favourites .card-1,.card-2,.card-3{
+      width: 280px;
+    }
+
+    .container-favourites .preview-img {
+      width: 280px;
+    }
+
+
+    .container-why a {
+      display: flex;
+      justify-content: center;
+    }
+
+    .container-why button {
+      margin-top: 140px;
+    }
+
+    .container-why p {
+      max-width: 280px;
+    }
+
+    .titles {
+      padding-left: 50px;
+    }
+}
